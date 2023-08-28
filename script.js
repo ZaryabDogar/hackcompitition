@@ -9,7 +9,7 @@ response.then(data=>data.json()).then((data)=>{
             
 
             <div class="card "  style="width: 17rem;margin:25px 20px;display: flex;justify-content: center;align-items: center;">
-                <img src="/img/${key}.jpg" class="card-img-top" alt="..." style=" size:border:box;width:100%; overflow:hidden; ">
+                <img src="img/${key}.jpg" class="card-img-top" alt="..." style=" size:border:box;width:100%; overflow:hidden; ">
                 <div class="card-body">
                     <h3 class="card-title">${data[key].name} </h3>
                     <p class="">start Date: ${new Date (data[key].start_time).toDateString()}</p>
